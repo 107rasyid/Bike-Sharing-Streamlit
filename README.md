@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple dashboard to display bike sahre the data from the [day.csv](../dataset/day.csv) file. The goal is to answer business questions so as to obtain information from the visualization of the analyzed data
+This is a simple dashboard to display bike sahre the data from the [day.csv](dataset/day.csv) file. The goal is to answer business questions so as to obtain information from the visualization of the analyzed data
 
 ## Directory Structure
 - **/dataset**: This directory contains the data used in the project, in .csv format.
