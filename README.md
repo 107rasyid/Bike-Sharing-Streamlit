@@ -12,5 +12,4 @@ This is a simple dashboard to display bike share data from the [day.csv](dataset
 ## How to run dashboard
 1. Setup environment: `pip install -r requirements.txt`
 2. Run the dashboard: `streamlit run dashboard.py`
-
-*if error read readme.txt in dashboard directory
+*if error in running the dasboard read readme.txt in dashboard directory
