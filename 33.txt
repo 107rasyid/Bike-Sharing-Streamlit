@@ -1,0 +1,1 @@
+Karena saya tidak bisa membuka dashboard streamlit seperti pada modul karena error, untuk membuka dashboard streamlit yang saya buat saya menggunakan file buka_dashboard.ipynb dan di run lalu memasukan password tunnel. Setelah memasukan password dan menekan submit dashboard bisa di akses.
