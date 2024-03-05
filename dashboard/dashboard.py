@@ -7,7 +7,7 @@ from PIL import Image
 # Load Data
 @st.cache_data
 def load_data():
-    data = pd.read_csv("dataset/day.csv")
+    data = pd.read_csv("https://raw.githubusercontent.com/107rasyid/Belajar-Analisis-Data-dengan-Python/main/dataset/day.csv")
     return data
 
 @st.cache_resource
