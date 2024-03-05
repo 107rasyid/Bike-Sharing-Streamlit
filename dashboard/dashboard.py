@@ -10,11 +10,6 @@ def load_data():
     data = pd.read_csv("https://raw.githubusercontent.com/107rasyid/Belajar-Analisis-Data-dengan-Python/main/dataset/day.csv")
     return data
 
-@st.cache_resource
-def load_image(image_path):
-    image = Image.open(image_path)
-    return image
-
 # Title Dashboard
 st.title("Bike Share Dashboard :bike:")
 st.markdown("---")
@@ -24,7 +19,6 @@ data = load_data()
 
 # Sidebar
 st.sidebar.title("Profil saya:")
-st.sidebar.image(load_image('profil.jfif'), width=150)
 st.sidebar.markdown("**• Nama: Rasyid Alfiansyah**")
 st.sidebar.markdown("**• Email: [rasyidalfiansyh@gmail.com]**")
 st.sidebar.markdown("**• github: [107rasyid](https://www.github.com/107rasyid)**")
