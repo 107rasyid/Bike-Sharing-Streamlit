@@ -6,7 +6,7 @@ This is a simple dashboard to display bike share data from the [day.csv](dataset
 
 ## Directory Structure
 - **/dataset**: This directory contains the data used in the project, in .csv format.
-- **/streamlit**: This directory contains dashboard.py used to create dashboards of data analysis results.
+- **/dashboard**: This directory contains dashboard.py used to create dashboards of data analysis results.
 - **notebook.ipynb**: This file is used to perform data analysis.
 
 ## How to run dashboard
