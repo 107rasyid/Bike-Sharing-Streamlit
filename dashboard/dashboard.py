@@ -7,7 +7,7 @@ from PIL import Image
 # Load Data
 @st.cache_data
 def load_data():
-    data = pd.read_csv("https://raw.githubusercontent.com/107rasyid/Belajar-Analisis-Data-dengan-Python/main/dataset/day.csv")
+    data = pd.read_csv("https://raw.githubusercontent.com/107rasyid/Bike-Sharing-Streamlit/refs/heads/main/dataset/day.csv")
     return data
 
 # Title Dashboard
